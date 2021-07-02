@@ -1,0 +1,32 @@
+@media only screen and (max-width: 560px){
+  .card {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 0px;
+    border: 0px;
+  }
+  .model {
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 460px){
+  .model {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 310px){
+  h1 {
+  	font-size: 30px;
+  }
+  h2 {
+  	font-size: 14px;
+  }
+  h3 {
+  	font-size: 12px;
+  }
+  ul.links > li{
+  	margin: 0px;
+  }
+}
